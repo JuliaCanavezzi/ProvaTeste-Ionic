@@ -12,12 +12,8 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'pages',
-    loadChildren: () => import('./pages/pages.module').then( m => m.PagesPageModule)
-  },
-  {
     path: 'music',
-    loadChildren: () => import('./music/music.module').then( m => m.MusicPageModule)
+    loadChildren: () => import('./pages/music/music.module').then( m => m.MusicPageModule)
   },
   {
     path: 'music',
