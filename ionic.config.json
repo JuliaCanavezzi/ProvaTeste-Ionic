@@ -1,0 +1,7 @@
+{
+  "name": "ProvaTeste",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
