@@ -1,0 +1,24 @@
+{
+  "Music" : [
+    {
+      "id": 1,
+      "name": "Cardigan",
+      "nameArtist": "Taylor Swift",
+      "realeseDate": "2024-08-23",
+      "musicalStyle": "Pop",
+      "duration": "3 minutos",
+      "albumName": "Lover",
+      "composer": "Taylor"
+    },
+    {
+      "id": 2,
+      "name": "Lover",
+      "nameArtist": "Taylor Swift",
+      "realeseDate": "2022-08-29",
+      "musicalStyle": "Pop",
+      "duration": "2 minutos",
+      "albumName": "Lover",
+      "composer": "Taylor S"
+    }
+  ]
+}
