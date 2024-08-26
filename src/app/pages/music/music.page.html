@@ -11,7 +11,7 @@
     </ion-toolbar>
   </ion-header>
   <ion-list>
-    <ion-item *ngFor="let musics of musics">
+    <ion-item *ngFor="let musics of musics"  [routerLink]="['/music-details', musics.id]">
       <ion-label>{{musics.name}}</ion-label>
     </ion-item>
   </ion-list>
