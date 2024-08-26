@@ -19,6 +19,16 @@
       "duration": "2 minutos",
       "albumName": "Lover",
       "composer": "Taylor S"
+    },
+    {
+      "id": 3,
+      "name": "Pop",
+      "nameArtist": "Taylor Swift",
+      "realeseDate": "2022-08-29",
+      "musicalStyle": "Pop",
+      "duration": "2 minutos",
+      "albumName": "Lover",
+      "composer": "Taylor S"
     }
   ]
 }

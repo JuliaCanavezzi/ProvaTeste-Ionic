@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { Music } from 'src/app/models/music';
+import { MusicService } from 'src/app/services/music.service';
 
 @Component({
   selector: 'app-music-details',
@@ -7,9 +10,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MusicDetailsPage implements OnInit {
 
-  constructor() { }
+  music : Music = {} as Music;
+  constructor(private service : MusicService,
+              private activedRoute: ActivatedRoute
+  ) { }
 
   ngOnInit() {
+    const id = this.activedRoute.snapshot.paramMap.get('id');
+
+    if(id){
+      this.service.getMusicById(id).subscribe(
+        {
+        next: music => this.music = music
+        }
+    );
+    }
   }
 
 }

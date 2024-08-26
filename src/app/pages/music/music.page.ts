@@ -9,7 +9,7 @@ import { MusicService } from 'src/app/services/music.service';
 })
 export class MusicPage implements OnInit {
 
-  musics: Music[] = []
+  musics: Music[] = [];
 
   constructor(private musicService : MusicService) { }
 
