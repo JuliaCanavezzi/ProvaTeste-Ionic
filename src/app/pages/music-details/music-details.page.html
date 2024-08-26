@@ -1,14 +1,57 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>music-details</ion-title>
+    <ion-title>Music-Details</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">music-details</ion-title>
+      <ion-title size="large">Music-Details</ion-title>
     </ion-toolbar>
   </ion-header>
-
+  <ion-accordion-group>
+    <ion-accordion value="first">
+      <ion-item slot="header" color="light">
+        <ion-label>Music Name:</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">{{music.name}}</div>
+    </ion-accordion>
+    <ion-accordion value="first">
+      <ion-item slot="header" color="light">
+        <ion-label>Name Artist:</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">{{music.nameArtist}}</div>
+    </ion-accordion>
+    <ion-accordion value="first">
+      <ion-item slot="header" color="light">
+        <ion-label>Realese Date:</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">{{music.realeseDate}}</div>
+    </ion-accordion>
+    <ion-accordion value="first">
+      <ion-item slot="header" color="light">
+        <ion-label>Musical Style:</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">{{music.musicalStyle}}</div>
+    </ion-accordion>
+    <ion-accordion value="first">
+      <ion-item slot="header" color="light">
+        <ion-label>Duration:</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">{{music.duration}}</div>
+    </ion-accordion>
+    <ion-accordion value="first">
+      <ion-item slot="header" color="light">
+        <ion-label>Album Name:</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">{{music.albumName}}</div>
+    </ion-accordion>
+    <ion-accordion value="first">
+      <ion-item slot="header" color="light">
+        <ion-label>Composer:</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">{{music.composer}}</div>
+    </ion-accordion>
+  </ion-accordion-group>
 </ion-content>

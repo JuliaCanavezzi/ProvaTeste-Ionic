@@ -2,33 +2,64 @@
   "Music" : [
     {
       "id": 1,
-      "name": "Cardigan",
+      "name": "My Tears Ricochet",
       "nameArtist": "Taylor Swift",
-      "realeseDate": "2024-08-23",
+      "realeseDate": "24-07-2020",
       "musicalStyle": "Pop",
-      "duration": "3 minutos",
-      "albumName": "Lover",
-      "composer": "Taylor"
+      "duration": "04:56",
+      "albumName": "Folklore",
+      "composer": "Taylor Swift"
     },
     {
       "id": 2,
-      "name": "Lover",
+      "name": "The 1",
       "nameArtist": "Taylor Swift",
       "realeseDate": "2022-08-29",
       "musicalStyle": "Pop",
-      "duration": "2 minutos",
-      "albumName": "Lover",
+      "duration": "02:45",
+      "albumName": "Folklore",
       "composer": "Taylor S"
     },
     {
       "id": 3,
-      "name": "Pop",
+      "name": "Cardigan",
       "nameArtist": "Taylor Swift",
       "realeseDate": "2022-08-29",
       "musicalStyle": "Pop",
-      "duration": "2 minutos",
-      "albumName": "Lover",
+      "duration": "05:17",
+      "albumName": "Folklore",
+      "composer": "Taylor S"
+    },
+    {
+      "id": 4,
+      "name": "Seven",
+      "nameArtist": "Taylor Swift",
+      "realeseDate": "2023-08-27",
+      "musicalStyle": "Pop",
+      "duration": "06:58",
+      "albumName": "Folklore",
+      "composer": "Taylor S"
+    },
+    {
+      "id": 5,
+      "name": "August",
+      "nameArtist": "Taylor Swift",
+      "realeseDate": "2022-08-29",
+      "musicalStyle": "Pop",
+      "duration": "03:21",
+      "albumName": "Folklore",
+      "composer": "Taylor S"
+    },
+    {
+      "id": 6,
+      "name": "Mirrorball",
+      "nameArtist": "Taylor Swift",
+      "realeseDate": "2020-08-03",
+      "musicalStyle": "Pop",
+      "duration": "01:05",
+      "albumName": "Folklore",
       "composer": "Taylor S"
     }
+
   ]
 }
