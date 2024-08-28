@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Music } from 'src/app/models/music';
+import { InfiniteScrollCustomEvent } from '@ionic/angular';
 import { MusicService } from 'src/app/services/music.service';
 
 @Component({
@@ -9,6 +10,7 @@ import { MusicService } from 'src/app/services/music.service';
   styleUrls: ['./music-details.page.scss'],
 })
 export class MusicDetailsPage implements OnInit {
+
 
   music : Music = {} as Music;
   constructor(private service : MusicService,
@@ -26,5 +28,6 @@ export class MusicDetailsPage implements OnInit {
     );
     }
   }
+
 
 }
